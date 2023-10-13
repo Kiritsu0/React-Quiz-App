@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    text-align: center;
+    background-color: blueviolet;
+    padding: 40px;
+  }
+  .home h1 {
+    font-size: 3rem;
+  }
+  .home p {
+    max-width: 40ch;
+    padding: 30px;
+  }
+  .home button {
+    font-size: 1.5rem;
+    padding: 5px;
+    background-color: #bc79d6;
+    border: none;
+    border-radius: 5px;
+    transition: ease 0.6s;
+  }
+  .home button:hover {
+    background-color: rgb(149, 83, 211);
+  }
+  
+  .questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eee;
+  }
+  .questions #hr1 {
+    border: 1px solid black;
+  }
+  .questions #test-header {
+    margin: 10px;
+    font-size: 1.9rem;
+  }
+  .questions p {
+    margin-top: 15px;
+    font-size: 1.7rem;
+    padding-right: 210px;
+  }
+  .questions .main-questions {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 15px 0 25px 0;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px black;
+  }
+  .questions .main-questions form {
+    width: 50vw;
+  }
+  .questions .main-questions .input {
+    padding: 5px;
+  }
+  .questions .main-questions .input #name {
+    width: 140px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: 2px;
+  }
+  .questions .main-questions .input #age {
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: 2px;
+  }
+  .questions .main-questions .input #gender {
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: 2px;
+  }
+  .questions .test {
+    margin: 20px 0 20px 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 10px 1px black;
+  }
+  .questions .test .label {
+    font-weight: 700;
+  }
+  .questions .test .q {
+    margin: 15px;
+  }
+    /*# sourceMappingURL=main.css.map */

@@ -20,7 +20,7 @@ function Questions() {
         <i><FaAngleRight /></i>
         </div>
       </div>
-      <img id="image" src="./project-2.jpg" alt="programming-img"></img>
+      <img id="image" src="project-2.jpg" alt="programming-img"></img>
     </div>
   );
 }

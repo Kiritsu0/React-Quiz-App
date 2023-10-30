@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgba(58, 35, 163, 0.308);
+}
+
 .home {
   display: flex;
   justify-content: space-between;
@@ -74,13 +78,17 @@
     transform: rotate(720deg);
   }
 }
-#image {
-  display: block;
-  padding: 10px;
-  max-width: 100%;
-  width: 70%;
-  height: 52vh;
-  margin: auto;
+
+.py-js {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
+}
+
+.py-js span {
+  font-size: 10rem;
+  color: rgb(183, 0, 255);
 }
 
 .questions {

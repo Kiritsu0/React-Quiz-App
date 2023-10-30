@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import {FaAngleLeft} from 'react-icons/fa'
 import {BsSlashLg} from 'react-icons/bs'
 import {FaAngleRight} from 'react-icons/fa'
-
+import {FaPython} from 'react-icons/fa'
+import {SiJavascript} from 'react-icons/si'
 
 function Questions() {
   return (
@@ -20,7 +21,10 @@ function Questions() {
         <i><FaAngleRight /></i>
         </div>
       </div>
-      <img id="image" src="project-2.jpg" alt="programming-img"></img>
+      <div className="py-js">
+        <span><FaPython /></span>
+        <span><SiJavascript /></span>
+      </div>
     </div>
   );
 }
